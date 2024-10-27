@@ -27,7 +27,7 @@ Simulate a purchase to add a user to the raffle.
 
 - **Admin**: Not required
 - **Usage**: User sends the command `/buy_plan`
-- **Description**: When a user purchases a plan (simulated here), they’re added to the raffle with a set number of entries (`raffle_days`).
+- **Description**: When a user purchases a plan (simulated here), they’re added to the raffle with a set number of entries (`raffle_days`). ⚠️ You should add your logic depending on your payment provider here. 
 
 ### `/draw_raffle`
 Draw a random winner from the list of raffle participants. Restricted to the admin ID.
